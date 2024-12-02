@@ -1,8 +1,11 @@
 import React, { useState } from "react";
+import gallery1 from '../assets/gallery-2.jpg'
+import gallery2 from '../assets/gallery-3.jpg'
+import gallery3 from '../assets/gallery-4.jpg'
 const images = [
-  { image: "src/assets/gallery-2.jpg", alt: "Image 1" },
-  { image: "src/assets/gallery-3.jpg", alt: "Image 2" },
-  { image: "src/assets/gallery-4.jpg", alt: "Image 3" },
+  { image: gallery1, alt: "Image 1" },
+  { image: gallery2, alt: "Image 2" },
+  { image: gallery3, alt: "Image 3" },
 ];
 
 const GallerySection = () => {
