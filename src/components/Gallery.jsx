@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 const images = [
-  { src: "src/assets/gallery-2.jpg", alt: "Image 1" },
-  { src: "src/assets/gallery-3.jpg", alt: "Image 2" },
-  { src: "src/assets/gallery-4.jpg", alt: "Image 3" },
+  { image: "src/assets/gallery-2.jpg", alt: "Image 1" },
+  { image: "src/assets/gallery-3.jpg", alt: "Image 2" },
+  { image: "src/assets/gallery-4.jpg", alt: "Image 3" },
 ];
 
 const GallerySection = () => {
@@ -33,7 +33,7 @@ const GallerySection = () => {
               onClick={() => handleImageClick(index)}
             >
               <img
-                src={image.src}
+                src={image.image}
                 alt={image.alt}
                 className="w-full h-full object-cover transition-transform duration-300"
               />
