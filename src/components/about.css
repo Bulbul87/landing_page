@@ -1,0 +1,39 @@
+/* aboutanimation.css */
+@keyframes slideInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .opacity-0 {
+    opacity: 0;
+  }
+  
+  .visible {
+    opacity: 1;
+  }
+  
+  .animate-slide-left {
+    animation: slideInLeft 0.8s ease-out forwards;
+  }
+  
+  .animate-slide-right {
+    animation: slideInRight 0.8s ease-out forwards;
+  }
+  

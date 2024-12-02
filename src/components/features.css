@@ -1,0 +1,40 @@
+
+
+@keyframes slideInBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .opacity-0 {
+    opacity: 0;
+  }
+  
+  .visible {
+    opacity: 1;
+  }
+  
+  .animate-slide-bottom {
+    animation: slideInBottom 0.8s ease-out forwards;
+  }
+  
+  .animate-slide-right {
+    animation: slideInRight 0.8s ease-out forwards;
+  }
+  
