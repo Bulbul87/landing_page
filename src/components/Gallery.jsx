@@ -16,7 +16,7 @@ const GallerySection = () => {
   };
 
   return (
-    <div id="gallery" className="bg-gray-100 py-16">
+    <div id="gallery" className="bg-gray-100 py-40 my-40">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-center text-teal-400 mb-4">
           Gallery

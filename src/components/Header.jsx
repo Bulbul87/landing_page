@@ -5,7 +5,7 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 w-full bg-white shadow-lg z-50">
-      <nav className="container mx-auto flex justify-between items-center py-4 px-6 ">
+      <nav className="container mx-auto flex justify-between items-center py-4  px-6 ">
         <h1 className="text-2xl font-bold text-teal-400">AVILON</h1>
 
         <button

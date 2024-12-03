@@ -4,9 +4,9 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="flex flex-col items-center text-center py-20 bg-teal-500 text-white"
+      className="flex flex-col items-center text-center py-20 bg-teal-500 text-white  "
     >
-      <h2 className="text-4xl font-bold">Welcome to Avilon</h2>
+      <h2 className="text-4xl font-bold pt-6">Welcome to Avilon</h2>
       <p className="text-lg mt-4">
         We can build a responsive website using tailwind css
       </p>

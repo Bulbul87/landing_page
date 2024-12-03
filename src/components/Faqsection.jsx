@@ -40,7 +40,7 @@ const FAQSection = () => {
   };
 
   return (
-    <div className="bg-gray-100 py-16">
+    <div className="bg-gray-100 py-20 my-20">
       <div className="max-w-4xl mx-auto px-4">
         {/* Title */}
         <h2 className="text-4xl font-bold text-center text-teal-400 mb-4">

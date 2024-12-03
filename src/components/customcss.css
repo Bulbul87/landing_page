@@ -59,3 +59,7 @@
         animation-timing-function: cubic-bezier(0,0,0.2,1);
     }
 }
+.size-80 {
+  width: 10rem /* 320px */;
+  height: 18rem /* 320px */;
+}

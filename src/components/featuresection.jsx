@@ -4,8 +4,8 @@ import img2 from "../assets/advanced-feature-2.jpg";
 import img3 from "../assets/advanced-feature-3.jpg";
 const FeatureSection = () => {
   return (
-    <div className=" py-10">
-      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
+    <div className=" py-20 my-20">
+      <div className="max-w-6xl mx-auto py-2 my-2 flex flex-col md:flex-row items-center gap-10 m-2">
         {/* Text Section */}
         <div className="md:w-1/2  animate-slide-left ">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">
@@ -27,7 +27,7 @@ const FeatureSection = () => {
         </div>
 
         {/* Image Section */}
-        <div className="md:w-1/2">
+        <div className="md:w-1/2 ">
           <img
             src={img1}
             alt="Feature"
@@ -36,7 +36,7 @@ const FeatureSection = () => {
         </div>
       </div>
       {/* second section */}
-      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
+      <div className="max-w-6xl mx-auto py-2 my-2 flex flex-col md:flex-row items-center gap-10 m-2">
         {/* Image Section */}
         <div className="md:w-1/2">
           <img
@@ -66,7 +66,7 @@ const FeatureSection = () => {
         </div>
       </div>
       {/* third section */}
-      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
+      <div className="max-w-6xl mx-auto py-2 my-2 flex flex-col md:flex-row items-center gap-10 m-2">
         {/* Text Section */}
         <div className="md:w-1/2  animate-slide-left ">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">

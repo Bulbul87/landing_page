@@ -42,16 +42,16 @@ export default function About() {
   return (
     <div
       id="about"
-      className="   max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10"
+      className="   max-w-6xl mx-auto     flex flex-col md:flex-row  gap-10 "
     >
       {/* Image Section with Scroll Animation */}
-      <div ref={imageRef} className="w-full md:w-1/2 md:pl-10 opacity-0">
-        <img src={img} alt="About Us" className="rounded-lg shadow-lg  " />
+      <div ref={imageRef} className="w-full md:w-1/2 md:pl-10 opacity-0 pt-20">
+        <img src={img} alt="About Us" className="rounded-lg shadow-lg   " />
       </div>
 
       {/* Content Section with Scroll Animation */}
-      <div ref={contentRef} className="w-full md:w-1/2 md:pl-10 opacity-0">
-        <h1 className="text-4xl text-teal-400 font-bold">About us</h1>
+      <div ref={contentRef} className="w-full md:w-1/2 md:pl-10 opacity-0 ">
+        <h1 className="text-4xl text-teal-400 font-bold pt-20">About us</h1>
         <h2 className="text-3xl font-bold mb-4 text-gray-400">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit
         </h2>

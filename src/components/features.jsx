@@ -42,32 +42,32 @@ const Features = () => {
   return (
     <div
       id="features"
-      className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10"
+      className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row gap-10  py-20 my-20 "
     >
       {/* Left Side - Image with Scroll Animation */}
       <div
         ref={imageRef}
-        className="w-full md:w-1/2 flex justify-center opacity-0"
+        className="w-full md:w-1/2 flex m-10 opacity-0 "
       >
         <img src={img} alt="Hand holding phone" className="max-w-xs" />
       </div>
 
       {/* Right Side - Content with Scroll Animation */}
-      <div ref={contentRef} className="w-full md:w-1/2 mt-8 md:mt-0 opacity-0">
-        <h2 className="text-4xl text-teal-400 font-bold mb-4">
+      <div ref={contentRef} className="w-full md:w-1/2 mt-8 py-10  md:mt-0 opacity-0   ">
+        <h2 className="text-4xl text-teal-400 font-bold mb-8">
           Product Features
         </h2>
         {/* Flex container to divide content into two columns */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
-            <h3 className="text-xl font-semibold text-gray-600">Lorem Ipsum</h3>
+            <h3 className="text-xl font-semibold text-gray-600 mb-6">Lorem Ipsum</h3>
             <p className="text-gray-600">
               Voluptatum deleniti atque corrupti quos dolores et quas molestias
               excepturi sint occaecati cupiditate non provident clarida perendo.
             </p>
           </div>
           <div>
-            <h3 className="text-xl font-semibold text-gray-600">
+            <h3 className="text-xl font-semibold text-gray-600 mb-6">
               Dolor Sit Amet
             </h3>
             <p className="text-gray-600">
@@ -77,7 +77,7 @@ const Features = () => {
             </p>
           </div>
           <div>
-            <h3 className="text-xl font-semibold text-gray-600">
+            <h3 className="text-xl font-semibold text-gray-600 mb-6">
               Sed ut Perspiciatis
             </h3>
             <p className="text-gray-600">
@@ -87,7 +87,7 @@ const Features = () => {
             </p>
           </div>
           <div>
-            <h3 className="text-xl font-semibold text-gray-600">
+            <h3 className="text-xl font-semibold text-gray-600 mb-6">
               Magni Dolores
             </h3>
             <p className="text-gray-600">

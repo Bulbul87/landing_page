@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer id="contact" className=" text-teal-400 py-12">
+    <footer id="contact" className=" text-teal-400 py-2  ">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
@@ -13,7 +13,7 @@ const Footer = () => {
                 <input
                   type="text"
                   placeholder="Your Name"
-                  className="w-full px-4 py-2 bg-gray-800 text-white border border-gray-700 rounded focus:outline-none focus:border-green-400"
+                  className="w-full px-4 py-2  text-black border border-teal-400 rounded   focus:outline-teal-400"
                 />
               </div>
               <div>
@@ -21,7 +21,7 @@ const Footer = () => {
                 <input
                   type="email"
                   placeholder="Your Email"
-                  className="w-full px-4 py-2 bg-gray-800 text-white border border-gray-700 rounded focus:outline-none focus:border-green-400"
+                  className="w-full px-4 py-2 text-black border focus:outline-teal-400 border-teal-400 rounded  "
                 />
               </div>
               <div>
@@ -29,7 +29,7 @@ const Footer = () => {
                 <textarea
                   placeholder="Your Message"
                   rows="4"
-                  className="w-full px-4 py-2 bg-gray-800 text-white border border-gray-700 rounded focus:outline-none focus:border-teal-500"
+                  className="w-full px-4 py-2 text-black border border-teal-400 rounded   focus:outline-teal-400"
                 ></textarea>
               </div>
               <button
@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
 
           {/* Footer Links */}
-          <div>
+          <div   >
             <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
